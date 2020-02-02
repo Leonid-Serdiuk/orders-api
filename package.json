@@ -1,0 +1,29 @@
+{
+  "name": "order-api-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -w src -x \"babel-node src\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Leonid Serdiuk",
+  "license": "MIT",
+  "dependencies": {
+    "db-migrate": "^0.11.6",
+    "db-migrate-mysql": "^2.1.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.3",
+    "@babel/core": "^7.8.3",
+    "@babel/node": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "faker": "^4.1.0",
+    "nodemon": "^2.0.2"
+  }
+}
